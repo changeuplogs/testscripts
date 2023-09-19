@@ -55,7 +55,7 @@ The script will generate a JSON file containing the fetched and simplified activ
 ## .gitignore
 
 - `node_modules/`: Standard Node.js practice to ignore the `node_modules` directory.
-- `*.json`: To ignore generated JSON files.
+- `outputs/`: To ignore generated JSON files.
 
 ## License
 
