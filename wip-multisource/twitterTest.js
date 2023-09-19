@@ -1,7 +1,7 @@
 const Twitter = require('twitter-v2');
 
 const twitterClient = new Twitter({
-  bearer_token: 'AAAAAAAAAAAAAAAAAAAAAMQqoQEAAAAAGwcxrJngopo3xC0FrQYi%2FaJaqoU%3DJWuTKNEhqFLolpH4NsKzaGGtVAmAleBPsPPQApGnKgFJPN6hVz',
+  bearer_token: '',
 });
 
 async function getTwitterId() {

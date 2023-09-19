@@ -7,7 +7,7 @@ const sleep = require('util').promisify(setTimeout);
 const OUTPUT_FILE = 'twitter_ta.json';
 const TWITTER_HANDLES = ['CryptoDonAlt', 'ByzGeneral', 'CryptoCred', 'QuantMeta', 'AltcoinSherpa', 'inmortalcrypto', 'permabearXBT', 'SmallCapScience', 'castillotrading', 'MuroCrypto', 'Crypto_Chase', 'damskotrades', 'Ninjascalp', 'MacroCRG', 'TheCrowtrades'];
 
-process.env.TWITTER_BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAMQqoQEAAAAAGwcxrJngopo3xC0FrQYi%2FaJaqoU%3DJWuTKNEhqFLolpH4NsKzaGGtVAmAleBPsPPQApGnKgFJPN6hVz';
+process.env.TWITTER_BEARER_TOKEN = '';
 
 const TWITTER_API_CREDENTIALS = {
   bearer_token: process.env.TWITTER_BEARER_TOKEN

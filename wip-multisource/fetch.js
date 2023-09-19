@@ -9,8 +9,8 @@ const OUTPUT_FILE = `${ORG_NAME}_activity.json`;
 const TWITTER_HANDLE = '';
 const DAYS = 30;
 
-process.env.TWITTER_BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAMQqoQEAAAAAGwcxrJngopo3xC0FrQYi%2FaJaqoU%3DJWuTKNEhqFLolpH4NsKzaGGtVAmAleBPsPPQApGnKgFJPN6hVz';
-process.env.GITHUB_TOKEN = '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';
+process.env.TWITTER_BEARER_TOKEN = '';
+process.env.GITHUB_TOKEN = '';
 
 
 const PERSONAL_ACCESS_TOKEN = process.env.GITHUB_TOKEN || '';
